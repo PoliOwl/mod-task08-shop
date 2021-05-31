@@ -4,7 +4,7 @@ set(src task.cpp)
 
 
 
-add_library(${PROJECT_NAME} SHARED
+add_library(${PROJECT_NAME} STATIC
   ${header}
   ${src})
 target_include_directories(${PROJECT_NAME}

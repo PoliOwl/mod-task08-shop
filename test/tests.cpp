@@ -1,5 +1,7 @@
 // Copyright 2021 GHA Test Team
 #include <gtest/gtest.h>
-#include "task1.h"
-#include "task2.h"
-#include "task3.h"
+#include "../include/task.h"
+
+TEST(ShopTests, createShop) {
+    ASSERT_NO_THROW(shop mall(10, 10, 10));
+}
